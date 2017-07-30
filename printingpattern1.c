@@ -1,0 +1,65 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int n,r,rem,q,i,j,k,l=1;
+	scanf("%d",&n);
+	q=n/5;
+	rem=n%5;
+	if(rem==0)
+	{
+		r=q;	
+		for(i=1;i<=r;i++)
+		if(i%2!=0)
+		{
+		for(j=1;j<=5;j++)
+		{
+			printf("%d\t",l++);	
+		}
+		l=l+4;
+		printf("\n");
+		}
+		else
+		{
+		for(j=1;j<=5;j++)
+		{
+			printf("%d\t",l--);	
+		}
+		l=l+6;
+		printf("\n");		
+		}
+	}
+	else
+	{
+		r=q+1;	
+		for(i=1;i<r;i++)		
+		if(i%2!=0)
+		{
+		for(j=1;j<=5;j++)
+		{
+			printf("%d\t",l++);	
+		}
+		l=l+4;
+		printf("\n");
+		}
+		else
+		{
+		for(j=1;j<=5;j++)
+		{
+			printf("%d\t",l--);	
+		}
+		l=l+6;
+		printf("\n");		
+		}
+		
+		{	
+			k=n-rem;
+			for(j=1;j<=(5-rem);j++)
+			printf(" \t");
+			for(j=1;j<=rem;j++)
+			printf("%d\t",++k);	
+		}
+	
+	}
+getch();
+}

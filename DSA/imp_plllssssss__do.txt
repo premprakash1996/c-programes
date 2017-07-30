@@ -1,0 +1,51 @@
+sorting:
+-bubble
+-selection
+-insertion
+-merge
+-quick
+-heap---
+
+stacks:
+-stack using array
+-stack using linked list
+-balanced parantheseis using array
+-balanced parantheseis using linked list---s
+-postfix expression---
+
+queue:
+-queue using array
+-queue using linked list
+
+circular queue:
+-cqueue using array
+-cqueue using linked list
+
+singly linked list
+-all operations
+  add begin
+  add end
+  add position
+  del begin 	
+  del end
+  del position
+  display
+-reverse a linked list
+-finding loop in a linked list
+-finding cyclic linked list
+
+doubly linked list
+-all operations
+  add 
+  del
+  display
+
+trees
+-using array---
+-using linked list
+-converting tree into bst---
+
+graphs
+-create---
+-dfs---
+-bfs---
